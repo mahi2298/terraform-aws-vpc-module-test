@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3"{
     bucket = "mahi-s3-bucket"
-    key = "remote-state"
+    key = "remote-state-vpc"
     region = "us-east-1"
     encrypt = true 
     use_lockfile = true
